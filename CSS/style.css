@@ -17,7 +17,7 @@ body {
     background-color: #FFF;
     /* vertical | horizontal */
     padding: 1cm min(10vw, 3cm);
-    font-size: 11pt;
+    font-size: max(12pt, 1.5vw);
     margin: 0;
     color: var(--first_layer);
 }
