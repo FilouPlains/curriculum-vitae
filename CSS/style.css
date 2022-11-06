@@ -5,6 +5,7 @@
     --short_bg: #6A8D73;
     --link: #103783;
     --active_link: #9BAFD9;
+    --min_width: 5cm;
 }
 
 img#cv_picture {
@@ -123,7 +124,7 @@ div.picture {
 
 div.intro_flexer div.objective {
     width: calc(100% - 210px - 5cm);
-    min-width: 10cm;
+    min-width: var(--min_width);
     flex-grow: 1;
 }
 
@@ -134,7 +135,7 @@ div.flexer {
 
 div.flexer>div {
     width: 30%;
-    min-width: 10cm;
+    min-width: var(--min_width);
     /* top/bottom left/right */
     margin: 0.5cm 1cm;
     flex-grow: 1;
