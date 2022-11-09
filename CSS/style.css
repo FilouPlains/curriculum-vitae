@@ -94,6 +94,7 @@ h1 {
     padding: 0.5ex;
     /* top/bottom left/right */
     margin: 0;
+    hyphens: auto;
 }
 
 h2,
