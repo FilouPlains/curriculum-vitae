@@ -35,6 +35,8 @@ body div.short_present p {
     flex-direction: row;
     /* top/bottom left/right */
     margin: 1ex auto;
+    /* top/bottom left/right */
+    padding: 0 1ex;
 }
 
 body div.short_present p img {
