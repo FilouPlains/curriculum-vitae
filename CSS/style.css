@@ -5,7 +5,7 @@
     --short_bg: #6A8D73;
     --link: #103783;
     --active_link: #9BAFD9;
-    --min_width: 5cm;
+    --min_width: 10cm;
 }
 
 img#cv_picture {
@@ -15,9 +15,9 @@ img#cv_picture {
 
 body {
     font-family: "Segoe UI Light", "Segoe UI", sans-serif;
-    background-color: #FFF;
+    background-color: var(--main_bg);
     /* vertical | horizontal */
-    padding: 1cm min(10vw, 3cm);
+    padding: 0;
     font-size: 12pt;
     margin: 0;
     color: var(--first_layer);
@@ -55,7 +55,7 @@ body li {
     margin-left: 1ex;
 }
 
-body ul:not(.skip) > li.list_ttl {
+body ul:not(.skip)>li.list_ttl {
     list-style: none;
 }
 
@@ -144,6 +144,10 @@ div.flexer>div {
     flex-grow: 1;
 }
 
+div.flexer>div.works {
+    width: 5%;
+}
+
 div.flexer ul {
     background-color: white;
     padding: 0.5cm;
@@ -188,7 +192,8 @@ ul#prof_exp {
     flex-wrap: wrap;
 }
 
-ul#prof_exp>ul.mid_flexer {
+ul#prof_exp>ul.mid_flexer,
+ul#works>ul.mid_flexer {
     margin: 0;
     padding: 0;
     flex-grow: 1;
@@ -198,7 +203,8 @@ ul#prof_exp>ul.mid_flexer {
 #cb_cent_interest,
 #cb_skills,
 #cb_training,
-#cb_prof_exp {
+#cb_prof_exp,
+#cb_works {
     display: none;
 }
 
@@ -241,11 +247,10 @@ div {
 }
 
 @media (max-width: 500px) {
-    body {
-        padding: 0;
-        background-color: var(--main_bg);
+    :root {
+        --min_width: 5cm;
     }
-
+    
     body div.short_present {
         /* top/bottom left/right */
         padding: 0.5cm 0;
@@ -259,7 +264,8 @@ div {
     #cb_cent_interest:checked+#cent_interest,
     #cb_skills:checked+#skills,
     #cb_training:checked+#training,
-    #cb_prof_exp:checked+#prof_exp {
+    #cb_prof_exp:checked+#prof_exp,
+    #cb_works:checked+#works {
         height: 0px;
         padding: 0;
         animation-name: hidding;
@@ -270,7 +276,8 @@ div {
     #cb_cent_interest:not(:checked)+#cent_interest,
     #cb_skills:not(:checked)+#skills,
     #cb_training:not(:checked)+#training,
-    #cb_prof_exp:not(:checked)+#prof_exp {
+    #cb_prof_exp:not(:checked)+#prof_exp,
+    #cb_works:not(:checked)+#works {
         animation-name: showing;
         animation-duration: 2s;
     }
