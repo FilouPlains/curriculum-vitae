@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="5cm"
+   height="5cm"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (0f2f062aeb, 2022-09-21, custom)"
+   sodipodi:docname="email.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="2.4687501"
+     inkscape:cx="64.607592"
+     inkscape:cy="51.443036"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="1107"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g2262"
+     showguides="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid294"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect2191"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Utilise la règle de remplissage « fill-rule: evenodd » de la boîte de dialogue &lt;b&gt;Fond et contour&lt;/b&gt; en l'absence de résultat de mise à plat après une conversion en chemin." />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath551">
+      <rect
+         style="fill:#000000;stroke-width:0.352777;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+         id="rect553"
+         width="5.5562501"
+         height="3.4395833"
+         x="0"
+         y="0.52916682"
+         rx="0"
+         ry="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2187">
+      <rect
+         style="display:block;fill:#000000;stroke:none;stroke-width:0.176389;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         id="rect2189"
+         width="5.8208332"
+         height="1.8470628"
+         x="-1.5874999"
+         y="-0.92353141" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2262">
+      <g
+         id="g2268"
+         transform="matrix(10.000382,0,0,12.823736,-0.13637732,-5.9495521)"
+         style="fill:#262626;stroke-width:0.0883048;fill-opacity:1">
+        <path
+           style="fill:#262626;fill-opacity:1;stroke:none;stroke-width:0.023364px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 0.26458333,1.5875 c 0,0 1.32291667,0.5291666 1.32291667,0.5291666 v 0 L 0.26458333,3.4395833 v 0 V 1.5875"
+           id="path2225" />
+        <path
+           style="fill:#262626;fill-opacity:1;stroke:none;stroke-width:0.023364px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 4.7625,1.5875 c 0,0 -1.3229167,0.5291666 -1.3229167,0.5291666 v 0 L 4.7625,3.4395833 v 0 V 1.5875"
+           id="path2225-7" />
+        <path
+           style="fill:#262626;fill-opacity:1;stroke:none;stroke-width:0.023364px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 0.26458333,1.323 c 4.23524297,0 4.48437497,0 4.48437497,0 v 0 L 2.5067707,2.3813334 Z"
+           id="path2254" />
+        <path
+           style="fill:#262626;fill-opacity:1;stroke:none;stroke-width:0.0233639px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 0.27750001,3.5039166 H 4.7625001 L 3.2675001,2.181 2.5200001,2.6219722 1.7725001,2.181 Z"
+           id="path2256" />
+      </g>
+    </g>
+  </g>
+</svg>
