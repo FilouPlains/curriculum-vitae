@@ -1,8 +1,6 @@
 # 🚹 CURRICULUM-VITAE 📝
 
-✍ Authors:
-
-**ROUAUD Lucas**
+✍ Authors: **ROUAUD Lucas**
 
 [![HTML-5](https://img.shields.io/badge/HTML-5-ff6200.svg)](https://GitHub.com/Naereen/ama.fr)
 [![Demandez moi n'importe quoi !](https://img.shields.io/badge/CSS-3-4d93e3.svg)](https://GitHub.com/Naereen/ama.fr)
