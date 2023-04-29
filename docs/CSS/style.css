@@ -1,16 +1,18 @@
 :root {
     --main_bg: #F0F0C9;
     --first_layer: #262626;
-    --second_layer: #6A8D73;
-    --short_bg: #6A8D73;
+    --second_layer: #384b3d;
+    --short_bg: #384b3dAA;
     --link: #103783;
     --active_link: #9BAFD9;
     --min_width: 10cm;
+    --border_radius: 30px;
 }
 
 img#cv_picture {
     width: 200px;
-    margin-top: 1ex
+    margin-top: 1ex;
+    border-radius: var(--border_radius);
 }
 
 body {
@@ -21,6 +23,11 @@ body {
     font-size: 12pt;
     margin: 0;
     color: var(--first_layer);
+    background-image: url("../PICTURE/6VXX_BLUR.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 body div.short_present div {
@@ -47,6 +54,8 @@ body div.short_present {
     width: 100%;
     background-color: var(--short_bg);
     text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 body li {
@@ -59,22 +68,21 @@ body ul:not(.skip)>li.list_ttl {
     list-style: none;
 }
 
-div.main {
-    background-color: var(--main_bg);
-}
-
 div.main>div {
     padding: min(1cm, 1vw);
 }
 
 div.objective {
-    background-color: var(--first_layer);
+    background-color: var(--short_bg);
     color: #FFF;
     /* top/bottom left/right */
     margin: 0.5cm 1cm;
     padding: 0.5cm;
     text-align: justify;
     word-wrap: break-word;
+    border-radius: var(--border_radius);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 h1,
@@ -90,13 +98,14 @@ a {
     font-weight: bolder;
 }
 
-h1 {
-    background-color: var(--first_layer);
-    color: white;
+h1:not(#h1_objective) {
+    color: var(--first_layer);
     padding: 0.5ex;
     /* top/bottom left/right */
     margin: 0;
     hyphens: auto;
+    -webkit-hyphens: auto;
+    padding-left: 30px;
 }
 
 h2,
@@ -148,11 +157,14 @@ div.flexer>div.works {
     width: 5%;
 }
 
-div.flexer ul {
-    background-color: white;
+ul.card {
+    background-color: #FFF;
     padding: 0.5cm;
     /* top/bottom left/right */
     margin: 0;
+    border-radius: var(--border_radius);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 div.flexer_intern {
@@ -220,6 +232,7 @@ ul#works>ul.mid_flexer {
 
     100% {
         padding: 0.5cm;
+        padding-top: calc(0.5cm + 30px);
         opacity: 1;
         height: auto;
     }
@@ -280,12 +293,26 @@ div {
     #cb_works:not(:checked)+#works {
         animation-name: showing;
         animation-duration: 2s;
+        padding-top: calc(0.5cm + 30px);
+        position: relative;
+        top: -30px;
+        z-index: 0;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        position: relative;
     }
 
     body div.short_present div {
         flex-direction: column;
     }
 
+    h1:not(#h1_objective) {
+        position: relative;
+        color: white;
+        background-color: var(--first_layer);
+        border-radius: var(--border_radius);
+        z-index: 1;
+    }
 }
 
 li:not(li.list_ttl) {
