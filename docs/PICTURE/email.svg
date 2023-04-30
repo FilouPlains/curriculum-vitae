@@ -7,7 +7,7 @@
    viewBox="0 0 50 50"
    version="1.1"
    id="svg5"
-   inkscape:version="1.2.1 (0f2f062aeb, 2022-09-21, custom)"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09, custom)"
    sodipodi:docname="email.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,13 +25,13 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="2.4687501"
-     inkscape:cx="64.607592"
-     inkscape:cy="51.443036"
-     inkscape:window-width="1920"
-     inkscape:window-height="1016"
+     inkscape:cx="64.810124"
+     inkscape:cy="51.848099"
+     inkscape:window-width="1913"
+     inkscape:window-height="752"
      inkscape:window-x="0"
-     inkscape:window-y="1107"
-     inkscape:window-maximized="1"
+     inkscape:window-y="114"
+     inkscape:window-maximized="0"
      inkscape:current-layer="g2262"
      showguides="true">
     <inkscape:grid
@@ -85,21 +85,21 @@
       <g
          id="g2268"
          transform="matrix(10.000382,0,0,12.823736,-0.13637732,-5.9495521)"
-         style="fill:#262626;stroke-width:0.0883048;fill-opacity:1">
+         style="fill:#ffffff;stroke-width:0.0883048;fill-opacity:1">
         <path
-           style="fill:#262626;fill-opacity:1;stroke:none;stroke-width:0.023364px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.023364px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            d="m 0.26458333,1.5875 c 0,0 1.32291667,0.5291666 1.32291667,0.5291666 v 0 L 0.26458333,3.4395833 v 0 V 1.5875"
            id="path2225" />
         <path
-           style="fill:#262626;fill-opacity:1;stroke:none;stroke-width:0.023364px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.023364px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            d="m 4.7625,1.5875 c 0,0 -1.3229167,0.5291666 -1.3229167,0.5291666 v 0 L 4.7625,3.4395833 v 0 V 1.5875"
            id="path2225-7" />
         <path
-           style="fill:#262626;fill-opacity:1;stroke:none;stroke-width:0.023364px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.023364px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            d="m 0.26458333,1.323 c 4.23524297,0 4.48437497,0 4.48437497,0 v 0 L 2.5067707,2.3813334 Z"
            id="path2254" />
         <path
-           style="fill:#262626;fill-opacity:1;stroke:none;stroke-width:0.0233639px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0233639px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            d="M 0.27750001,3.5039166 H 4.7625001 L 3.2675001,2.181 2.5200001,2.6219722 1.7725001,2.181 Z"
            id="path2256" />
       </g>

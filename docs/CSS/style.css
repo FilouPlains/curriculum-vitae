@@ -11,7 +11,7 @@
 
 img#cv_picture {
     width: 200px;
-    margin-top: 1ex;
+    margin: 1ex;
     border-radius: var(--border_radius);
 }
 
@@ -30,7 +30,7 @@ body {
     background-repeat: no-repeat;
 }
 
-body div.short_present div {
+body div.short_present div.flex_short_present {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -43,7 +43,8 @@ body div.short_present p {
     /* top/bottom left/right */
     margin: 1ex auto;
     /* top/bottom left/right */
-    padding: 0 1ex;
+    padding: 1ex;
+    color: #FFF;
 }
 
 body div.short_present p img {
@@ -56,6 +57,8 @@ body div.short_present {
     text-align: center;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    border-bottom-left-radius: var(--border_radius);
+    border-bottom-right-radius: var(--border_radius);
 }
 
 body li {
@@ -68,21 +71,21 @@ body ul:not(.skip)>li.list_ttl {
     list-style: none;
 }
 
-div.main>div {
+div.main>div,
+div.intro_flexer {
     padding: min(1cm, 1vw);
 }
 
 div.objective {
-    background-color: var(--short_bg);
     color: #FFF;
     /* top/bottom left/right */
     margin: 0.5cm 1cm;
     padding: 0.5cm;
     text-align: justify;
     word-wrap: break-word;
-    border-radius: var(--border_radius);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    font-size: 14pt;
 }
 
 h1,
@@ -263,7 +266,7 @@ div {
     :root {
         --min_width: 5cm;
     }
-    
+
     body div.short_present {
         /* top/bottom left/right */
         padding: 0.5cm 0;
@@ -302,7 +305,7 @@ div {
         position: relative;
     }
 
-    body div.short_present div {
+    body div.short_present div.flex_short_present {
         flex-direction: column;
     }
 
