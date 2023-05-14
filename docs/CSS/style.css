@@ -156,7 +156,10 @@ div.flexer>div {
     flex-grow: 1;
 }
 
-div.flexer>div.works {
+div.flexer>div.works,
+div.flexer>div.language,
+div.flexer>div.cent_interest,
+div.flexer>div.event {
     width: 5%;
 }
 
@@ -219,7 +222,8 @@ ul#works>ul.mid_flexer {
 #cb_skills,
 #cb_training,
 #cb_prof_exp,
-#cb_works {
+#cb_works,
+#cb_event {
     display: none;
 }
 
@@ -281,7 +285,8 @@ div {
     #cb_skills:checked+#skills,
     #cb_training:checked+#training,
     #cb_prof_exp:checked+#prof_exp,
-    #cb_works:checked+#works {
+    #cb_works:checked+#works,
+    #cb_event:checked+#event {
         height: 0px;
         padding: 0;
         animation-name: hidding;
@@ -293,7 +298,8 @@ div {
     #cb_skills:not(:checked)+#skills,
     #cb_training:not(:checked)+#training,
     #cb_prof_exp:not(:checked)+#prof_exp,
-    #cb_works:not(:checked)+#works {
+    #cb_works:not(:checked)+#works,
+    #cb_event:not(:checked)+#event {
         animation-name: showing;
         animation-duration: 2s;
         padding-top: calc(0.5cm + 30px);
